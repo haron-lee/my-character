@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "NIXGONM-Vb";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #222b55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "NIXGONM-VB";
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1200px;
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 500px;
+  height: 584px;
+  border: 15px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.frame-signboard {
+  padding-top: 10px;
+  background: #000;
+  height: 77px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
