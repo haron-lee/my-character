@@ -117,7 +117,7 @@
   position: absolute;
   left: 43.2%;
   top: 60%;
-  animation: shake-neck 6s 1s infinite;
+  animation: shake-neck 6s 1s ease;
 }
 
 .body-zipper {
