@@ -1,0 +1,143 @@
+@import url("body.css");
+
+.move-head {
+  position: relative;
+  width: 300px;
+  height: 288px;
+  margin: 30px 20px 0px 80px;
+  animation: shake-head 6s 1s ease;
+}
+
+.head {
+  background-color: var(--skin-color);
+  width: 224px;
+  height: 215px;
+  border-radius: 50%;
+  position: absolute;
+  left: 13.5%;
+  bottom: 0;
+}
+
+.head-ear {
+  background-color: var(--skin-color);
+  width: 62px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ear-left {
+  left: 10px;
+  top: 52%;
+}
+
+.ear-right {
+  right: 6px;
+  top: 52%;
+}
+
+.eyes {
+  background-color: var(--black-color);
+  width: 20px;
+  height: 32px;
+  border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+}
+
+.eye-left {
+  left: 90px;
+  top: 56%;
+}
+
+.eye-right {
+  right: 85px;
+  top: 56%;
+}
+
+.cheek {
+  background-color: var(--pink-color);
+  width: 30px;
+  height: 11px;
+  border-radius: 18.5px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0;
+  animation: cheek 2s 1s infinite;
+}
+
+.cheek-left {
+  left: 76px;
+  bottom: 25%;
+}
+
+.cheek-right {
+  right: 72px;
+  bottom: 25%;
+}
+
+.nose,
+.lip {
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.nose {
+  border-color: transparent transparent var(--nose-color) var(--nose-color);
+  width: 10px;
+  height: 10px;
+  bottom: 27%;
+  left: 47.5%;
+}
+
+.lip {
+  width: 10px;
+  height: 10px;
+  border-color: transparent transparent var(--pink-color) var(--pink-color);
+}
+
+.lip-left {
+  bottom: 20%;
+  left: 45.2%;
+}
+
+.lip-right {
+  bottom: 20%;
+  right: 42.9%;
+}
+
+.glasses {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: absolute;
+}
+
+.glass-left {
+  left: 55px;
+  top: 48%;
+}
+
+.glass-right {
+  right: 50px;
+  top: 48%;
+}
+
+.temple {
+  width: 25px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 62%;
+  left: 46%;
+}
+
+.hair {
+  width: 250px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}

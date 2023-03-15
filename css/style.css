@@ -7,8 +7,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   width: 100vw;
   height: 100vh;
   background: #222b55;
@@ -16,12 +14,11 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "NIXGONM-VB";
-  box-sizing: border-box;
 }
 
 .wrapper {
   width: 1200px;
-  background: #eee;
+  background: transparent;
   border-radius: 20px;
   overflow: hidden;
   padding: 40px 20px;
@@ -37,6 +34,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 12px 12px 5px #1717177e;
+  animation: move-box 1.2s ease-in-out infinite;
 }
 
 .frame-signboard {
@@ -49,4 +48,12 @@ body {
   align-items: center;
   font-size: 2rem;
   letter-spacing: 3px;
+}
+
+.img-wrap {
+  width: inherit;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  background: #eee;
 }
